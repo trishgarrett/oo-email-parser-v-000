@@ -10,7 +10,7 @@ class EmailParser
   end
 
   def parse
-    new_email_list = @emails.split(', ') && @emails.split(' ')
+    new_email_list = @emails.split(',') && @emails.split(' ')
 
 
 
