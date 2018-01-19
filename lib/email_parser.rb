@@ -12,6 +12,7 @@ class EmailParser
 
   def parse
     new_email_list = @emails.gsub(',',' ')
+    new_email_list = new_email_list.split(' ')
     #new_email_list = @emails.split(',') && @emails.split(' ')
        puts new_email_list
   end
