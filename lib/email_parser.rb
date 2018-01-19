@@ -13,7 +13,7 @@ class EmailParser
     new_email_list = @emails.split(', ') && @emails.split(' ')
 
 
-    
+
   end
 
 end
