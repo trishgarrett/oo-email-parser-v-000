@@ -9,10 +9,10 @@ class EmailParser
     @emails = emails
   end
 
-  def parser(emails)
+  def parse(emails)
     new_email_list = @emails.split(', ') && @emails.split(' ')
     new_email_list.each {|email| email == email}
-       email
+
     end
   end
 
