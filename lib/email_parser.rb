@@ -12,8 +12,8 @@ class EmailParser
   def parser(emails)
     new_email_list = @emails.split(', ') && @emails.split(' ')
     new_email_list.each do |email|
-      if email == email
-      end  
+
+     
     end
   end
 
